@@ -36,7 +36,7 @@ body {
 
  .shape3 { 
  	position: absolute;
-  top: 0; bottom: 0; right: 4vw;
+  top: 6.5vh; right: 4vw;
   margin: auto;
   width: 50vw;
   height: 70vh;
@@ -46,12 +46,12 @@ body {
 
 .sidebar1 {
 	position: absolute;
-  top: 0vh; right: 4vw;
+  top: 83vh; right: 4vw;
   margin: auto;
   width: 50vw;
   height: 10vh;
 	background-color: #000000; 
-  	border-radius: 0 0 15px 15px;
+  	border-radius: 15px 15px 0 0;
   	background-position: center; 
   	opacity: .9;
   	margin-left: 5px;
@@ -61,6 +61,8 @@ body {
 	background-color: #000000;
 	opacity: .5;
 	cursor: pointer;
+	height: 15vh;
+	top: 78vh;
 	transition: all 0.25s ease-in-out;
 }
 
@@ -79,20 +81,20 @@ body {
 	top: 0; left: 0; right: 0;
 	margin: auto;
 	position: absolute;
-	top: 2vh;
+	top: 1vh;
 	font-family: 'Krona One', sans-serif;
-	font-size: 2vw;
+	font-size: 1.6vw;
 	color: #FFFFFF;
 	text-align: center;
 }
 
 .eventtitle {
-	top: 0; left: 0; right: 0;
+	top: 0; left: .25vw; right: .25vw;
 	margin: auto;
 	position: absolute;
-	top: 15vh;
+	top: 10vh;
 	font-family: 'Krona One', sans-serif;
-	font-size: 2.5vh;
+	font-size: 3.7vh;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -110,7 +112,7 @@ body {
 
 
 .tickets {
-	left: 0; right: 0; top: 15vh;
+	left: 0; right: 0; top: 0; bottom: 0;
 	font-family: 'Roboto', sans-serif;
 	font-size: 3.5vw;
 	color: #FFFFFF;
@@ -165,7 +167,19 @@ img {
 
 }
 
-@media (max-width: 762px){
+@media (max-width: 784px){
+	img {
+	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+  	margin: auto;
+  	height: 45vh;
+  	background-color: #FFFFFF;
+ 	opacity: 1;
+  	max-width: 600px;
+  	max-height: 500px; 
+}
+}
+@media (max-width: 720px){
 	img {
 	position: absolute;
   	top: 0; left: 0; bottom: 0; right: 0;
@@ -221,7 +235,17 @@ img {
 	color: #FFFFFF;
 	text-align: center;
 }
+}
 
+@media (max-width: 516px){
+.sidebar1:hover{
+	background-color: #000000;
+	opacity: .5;
+	cursor: pointer;
+	height: 9vh;
+	top: 78vh;
+	transition: all 0.25s ease-in-out;
+}
 }
 
 @media (max-width: 619px){
@@ -449,6 +473,39 @@ img {
 	font-size: 1.3vh;
 	color: #FFFFFF;
 	text-align: center;
+}
+}
+
+@media (min-height: 683px) {
+	.eventtitle {
+	top: 3vh;
+	left: 0; right: 0;
+	margin: auto;
+	position: absolute;
+	font-family: 'Krona One', sans-serif;
+	font-size: 1.7vh;
+	color: #FFFFFF;
+	text-align: center;
+}
+.description {
+	top: 57.4vh; left: 2vh; right: 2vh;
+	margin: auto;
+	position: absolute;
+	max-width: 77vw;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3vh;
+	color: #FFFFFF;
+	text-align: center;
+}
+	img {
+	position: absolute;
+  	top: -17vh; left: 0; bottom: 0; right: 0;
+  	margin: auto;
+  	height: 30vh;
+  	background-color: #FFFFFF;
+ 	opacity: 1;
+  	max-width: 600px;
+  	max-height: 500px; 
 }
 }
 
