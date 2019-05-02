@@ -1,0 +1,493 @@
+.circle1 {
+	position: absolute;
+	left: 500px;
+	top: 550px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #A3FF68;
+
+}
+
+.circle1:hover{
+	background-image: url("monarch.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.monarchtext {
+	position: absolute;
+	top: 630px;
+	left: 530px;
+	width: 600px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+}
+
+
+.circle2 {
+	position: absolute;
+	left: 350px;
+	top: 500px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #BAFF9A;
+}
+
+.circle2:hover{
+	background-image: url("fox.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.foxtext {
+	position: absolute;
+	left: 385px;
+	top: 560px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle3 {
+	position: absolute;
+	left: 400px;
+	top: 656px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #215F01;
+}
+
+.circle3:hover{
+	background-image: url("salamander.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.salamandertext {
+	position: absolute;
+	top: 682px;
+	left: 410px;
+	font-size: 11pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle4 {
+	position: absolute;
+	left: 485px;
+	top: 420px;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #215F01;
+}
+
+.circle4:hover{
+	background-image: url("crane.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.cranetext {
+	position: absolute;
+	left: 504px;
+	top: 458px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle5 {
+	position: absolute;
+	left: 620px;
+	top: 395px;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	background-color: #84E8A1;
+} 
+
+
+.circle5:hover{
+	background-image: url("penguin.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.penguintext {
+	position: absolute;
+	left: 670px;
+	top: 455px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle6 {
+	position: absolute;
+	left: 295px;
+	top: 640px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #40EB62;
+}
+
+.circle6:hover{
+	background-image: url("beluga.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.belugatext {
+	position: absolute;
+	left: 318px;
+	top: 670px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle7 {
+	position: absolute;
+	left: 710px;
+	top: 565px;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #C2FF69;
+}
+
+.circle7:hover{
+	background-image: url("gull.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.gulltext {
+	position: absolute;
+	left: 732px;
+	top: 610px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle8 {
+	position: absolute;
+	left: 800px;
+	top: 410px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #215F01;
+}
+
+.circle8:hover{
+	background-image: url("koala.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.koalatext {
+	position: absolute;
+	left: 877px;
+	top: 497px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle9 {
+	position: absolute;
+	left: 700px;
+	top: 192px;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	background-color: #00C541;
+}
+
+.circle9:hover{
+	background-image: url("polar.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.polartext {
+	position: absolute;
+	left: 771px;
+	top: 284px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle10 {
+	position: absolute;
+	left: 110px;
+	top: 550px;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background-color: #00C541;
+}
+.circle10:hover{
+	background-image: url("turtle.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.turtletext {
+	position: absolute;
+	left: 162px;
+	top: 617px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle11 {
+	position: absolute;
+	left: 0px;
+	top: 640px;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	background-color: #215F01;
+}
+
+.circle11:hover{
+	background-image: url("pika.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pikatext {
+	position: absolute;
+	left: 17px;
+	top: 672px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle12 {
+	position: absolute;
+	left: 932px;
+	top: 163px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: #52D849;
+}
+
+.circle12:hover{
+	background-image: url("bee.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.beetext {
+	position: absolute;
+	left: 1026px;
+	top: 285px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle13 {
+	position: absolute;
+	left: 790px;
+	top: -50px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: #215F01;
+}
+
+.circle13:hover{
+	background-image: url("clownfish.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.clownfishtext {
+	position: absolute;
+	left: 840px;
+	top: 60px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle14 {
+	position: absolute;
+	left: 1000px;
+	top: 473px;
+	width: 210px;
+	height: 210px;
+	border-radius: 50%;
+	background-color: #00C541;
+}
+
+.circle14:hover{
+	background-image: url("turtle2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.turtle2text {
+	position: absolute;
+	left: 1056px;
+	top: 553px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle15 {
+	position: absolute;
+	left: 820px;
+	top: 620px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #52D849;
+}
+
+.circle15:hover{
+	background-image: url("seal.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}  
+
+.sealtext {
+	position: absolute;
+	left: 873px;
+	top: 680px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.circle16 {
+	position: absolute;
+	left: 1053px;
+	top: -14px;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	background-color: #13A704;
+}
+
+.circle16:hover{
+	background-image: url("thrush.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+} 
+
+.thrushtext {
+	position: absolute;
+	left: 1073px;
+	top: 53px;
+	font-size: 13pt;
+	font-family: 'Patua One', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.title {
+	position: absolute;
+	top: 0px;
+	left: 95px;
+	font-size: 50pt;
+	font-family: 'Patua One', cursive;
+	color: black;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.show {
+	opacity: 0;
+}
+
+.name {
+	position: absolute;
+	top: 95px;
+	left: 30px;
+	font-size: 20pt;
+	font-family: 'Patua One', cursive;
+	color: black;
+}
+
+
+.pic {
+	position:absolute;
+	width: 300px;
+	height: 300px;
+	background-image: url("gull.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 130px;
+	left: 30px;
+
+}
+
+.description {
+	position: absolute;
+	top: 130px;
+	left: 350px;
+	width: 320px;
+	font-size: 10pt;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+.d2 {
+	position: absolute;
+	top: 440px;
+	left: 30px;
+	width: 450px;
+	font-size: 10pt;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+.click {
+	position: absolute;
+	top: 505px;
+	left: 30px;
+	width: 320px;
+	font-size: 10pt;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
