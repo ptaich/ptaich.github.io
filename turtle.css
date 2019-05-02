@@ -23,6 +23,7 @@
 	font-size: 13pt;
 	font-family: 'Patua One', sans-serif;
 	color: black;
+	pointer-events: none;
 }
 
 
@@ -50,6 +51,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle3 {
@@ -76,6 +78,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle4 {
@@ -102,6 +105,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle5 {
@@ -129,6 +133,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle6 {
@@ -155,6 +160,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle7 {
@@ -181,6 +187,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle8 {
@@ -207,6 +214,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle9 {
@@ -233,6 +241,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle10 {
@@ -258,6 +267,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle11 {
@@ -284,6 +294,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle12 {
@@ -310,6 +321,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle13 {
@@ -336,6 +348,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle14 {
@@ -362,6 +375,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle15 {
@@ -388,6 +402,7 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .circle16 {
@@ -414,12 +429,13 @@
 	font-family: 'Patua One', sans-serif;
 	color: black;
 	text-align: center;
+	pointer-events: none;
 }
 
 .title {
 	position: absolute;
-	top: 0px;
-	left: 95px;
+	top: 5px;
+	left: 30px;
 	font-size: 50pt;
 	font-family: 'Patua One', cursive;
 	color: black;
@@ -467,7 +483,7 @@
 	position: absolute;
 	top: 130px;
 	left: 350px;
-	width: 320px;
+	width: 325px;
 	font-size: 10pt;
 	font-family: 'Roboto', sans-serif;
 	color: black;
