@@ -1,0 +1,553 @@
+
+body {
+    background-color: #023859;
+}
+
+.logo {
+    position: absolute; 
+}
+
+
+h1 {
+    font-family: filson-soft, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #8AB206;
+    font-size: 45px;
+    padding-left: 50px;
+    width: 400px;
+}
+
+
+
+#link1, #link2, #link3 {
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    padding-left: 150px;
+    text-decoration: none;
+    
+}
+
+.headerlinks {
+    width: 95vw;
+    height: 130px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.names {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.animals {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ani {
+    margin: 10px;
+    width: 400px;
+    height: 300px; 
+    background-color: white;
+}
+
+.elephant1, .polarbear1, .monarch1, .panda1, .tiger1, .turtle1, .gorilla1, .cheetah1, .penguin1, .bee1, .koala1, .manatee1 {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    opacity: .3;
+    transition: opacity;
+    z-index: 1;
+}
+
+.elephant1:hover, .polarbear1:hover, .monarch1:hover, .panda1:hover, .tiger1:hover, .turtle1:hover, .gorilla1:hover, .cheetah1:hover, .penguin1:hover, .bee1:hover, .koala1:hover, .manatee1:hover {
+    opacity: 1;
+
+}
+
+
+.elephanttext, .polarbeartext, .monarchtext, .pandatext, .tigertext, .turtletext, .gorillatext, .cheetahtext, .penguintext, .beetext, .koalatext, .manateetext {
+    top: -175px;
+    position: relative;
+    text-align: center;
+    font-family: filson-soft, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    color: #023859;
+    font-size: 30px;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.grass {
+    z-index: 200;
+    width: 100vw;
+    position: absolute;
+    top: 408px;
+}
+
+
+.cta {
+    position: absolute;
+    width: 100vw;
+    height: 500px;
+    background-color: #188d8F;
+    top: 125px;
+
+}
+
+
+#heading {
+    position: absolute;
+   font-family: filson-soft, sans-serif;
+    font-weight: 800;
+    text-align: left;
+    font-style: normal;
+    color: #023859;
+    font-size: 60px; 
+    top: 170px;
+    width: 50vw;
+    left: 25vw;
+    z-index: 100;
+}
+
+.subhead {
+    position: absolute;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    width: 50vw;
+    left: 25vw;
+    text-align: center;
+    font-style: normal;
+    color: #023859;
+    font-size: 20px; 
+    top: 330px;
+}
+
+.abt {
+    position: absolute;
+    width: 100vw;
+    height: 900px;
+    background-color: #188d8F;
+    top: 1125px;
+}
+
+
+.anis {
+    position: absolute;
+    width: 100vw;
+    height: 500px;
+    background-color: #188d8F;
+    top: 125px;
+
+}
+
+
+.container {
+  position: absolute;
+  background-color: #8ab006;
+  left: -392px;
+  top: 625px;
+  width: 500px;
+  height: 1792px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 100;
+  transform: rotate(-90deg);
+  transform-origin: right top;
+  transform:rotate(-90deg) translateY(-100px);
+}
+
+.container > div {
+    padding: 30px;
+  width: 400px;
+  height: 400px;
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+
+#elephant {
+    position: relative;
+    width: 420px;
+    top: 150px;
+    left: -75px;
+    cursor: cell;
+}
+
+#polarbear {
+    position: relative;
+    height: 370px;
+    top: 80px;
+    cursor: cell;
+}
+
+#monarch {
+    position: relative;
+    height: 100px;
+    top: 40px;
+    cursor: cell;
+}
+
+#panda {
+    position: relative;
+    height: 350px;
+    width: auto;
+    top: 110px;
+    left: -100px;
+    cursor: cell;
+}
+
+#tiger {
+    position: relative;
+    width: 450px;
+    top: 140px;
+    left: -80px;
+    cursor: cell;
+}
+
+#turtle {
+    position: relative;
+    width: 250px;
+    top: 80px;
+    left: 50px;
+    cursor: cell;
+}
+
+#gorilla {
+    position: relative;
+    width: 400px;
+    top: 0px;
+    left: -10px;
+    cursor: cell;
+}
+
+#cheetah {
+    position: relative;
+    width: 450px;
+    top: 0px;
+    left: 100px;
+    cursor: cell;
+}
+
+#koala {
+    position: relative;
+    width: 200px;
+    top: 150px;
+    left: 200px;
+    cursor: cell;
+}
+
+#penguin {
+    position: relative;
+    width: 350px;
+    top: 100px;
+    left: 150px;
+    cursor: cell;
+}
+
+#bee {
+   position: relative;
+    width: 150px;
+    top: 20px;
+    left: 150px; 
+    cursor: cell;
+}
+
+#manatee {
+    position: relative;
+    width: 350px;
+    top: 20px;
+    left: 40px; 
+    cursor: cell;
+}
+
+#secondhead {
+    position: absolute;
+   font-family: filson-soft, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    color: #023859;
+    font-size: 40px; 
+    top: 45px;
+    width: 50vw;
+    left: 25vw;
+    z-index: 100;
+}
+
+#quote {
+    position: absolute;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    color: #023859;
+    font-size: 25px; 
+    top: 125px;
+    width: 80vw;
+    left: 10vw;
+}
+
+.box {
+    position: absolute;
+    width: 30vw;
+    height: 500px;
+    background-color: #023859;
+    border-radius: 10px;
+    top: 250px;
+
+}
+
+#box1 {
+    left: 20vw;
+}
+
+#box2 {
+    left: 52vw;
+}
+
+.help {
+    position: absolute;
+    width: 100vw;
+    height: 900px;
+    background-color: #023859;
+    top: 2000px;
+}
+
+.help2 {
+    position: absolute;
+   font-family: filson-soft, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    color: white;
+    font-size: 40px; 
+    top: 45px;
+    width: 50vw;
+    left: 25vw;
+    z-index: 100;
+}
+
+#boxtext1, #boxtext2 {
+    position: relative;
+    font-family: filson-soft, sans-serif;
+    font-weight: 300;
+    text-align: left;
+    font-style: normal;
+    color: white;
+    width: 24vw;
+    margin-left: 3vw;
+    line-height: 25px;
+    font-size: 15px; 
+    top: 80px;
+}
+
+#boxtitle1 {
+    position: relative;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    color: white;
+    width: 24vw;
+    margin-left: 3vw;
+    font-size: 25px;
+    top: 40px;
+}
+
+.helpbox {
+    display: flex;
+    width: 100vw;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.helpbox1 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #8AB206;
+    z-index: 120;
+    border-radius: 10px;
+    top: 2100px;
+
+}
+
+#sun {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 200px;
+    left: 100px;
+}
+
+#snow {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 300px;
+    left: 1550px;
+}
+
+#quote2 {
+    position: absolute;
+    font-family: filson-soft, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-style: normal;
+    color: white;
+    font-size: 21px; 
+    top: 125px;
+    width: 80vw;
+    left: 10vw;
+}
+
+#foot {
+    position: absolute;
+    font-family: filson-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    opacity: .5;
+    font-size: 15px;
+    text-align: center;
+    width: 100vw;
+    margin-bottom: 5px;
+    top: 2850px;
+    z-index: 200;
+}
+
+
+
+
+
+
+#phone {
+    position: relative;
+    top: 20px;
+    width: 200px;
+    left: 150px;
+}
+
+#reps {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 500px;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+}
+
+
+#reps2 { 
+    position: relative;
+    left: 50px;
+    top: 0px;
+    text-align: center;
+    width: 400px;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+ }
+
+ #recycle {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    width: 200px;
+}
+
+#rec {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 500px;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+}
+
+
+#rec2 { 
+    position: relative;
+    left: 50px;
+    top: 0px;
+    text-align: center;
+    width: 400px;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+ }
+
+#heart {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    width: 200px;
+}
+
+#donate {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 500px;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+}
+
+
+#donate2 { 
+    position: relative;
+    left: 50px;
+    top: 0px;
+    text-align: center;
+    width: 400px;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+ }
+
+.bun {
+    position: absolute;
+    top: 443px;
+    width: 200px;
+    height: 30px;
+    left: 150px;
+    border-radius: 10px;
+    background-color: #023859;
+    font-family: filson-soft, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    width: 200px;
+    font-size: 12px;
+}
